@@ -1,0 +1,72 @@
+###
+GET http://localhost:3000/posts
+
+###
+POST http://localhost:3000/posts
+
+header name:"2" header value:"come on"
+
+content
+###
+GET http://localhost:3000/posts
+
+
+###
+GET http://localhost:3000/posts
+
+
+###
+POST http://localhost:3000/posts
+
+###
+GET http://localhost:3000/posts
+
+
+
+###
+POST http://localhost:3000/posts
+###
+POST http://localhost:3000/posts
+{"id":,
+"title":"hello"}
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "id":3,
+    "tittle":"jlkjllk"
+}
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+{
+    "id":4,
+    "tittle":"manipandi"
+}
+
+###
+PUT http://localhost:3000/posts
+Content-Type: application/json
+{
+    "id":2,
+    "tittle":"hi"
+}
+###
+DELETE http://localhost:3000/posts
+Content-Type: application/json
+{
+    "id":1,
+    "tittle":"welcome to all"
+}
+###
+GET http://localhost:3000/posts
+
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+{
+    "id":4,
+    "tittle":"mani"
+}
